@@ -1,0 +1,2 @@
+-- Seed data for local development
+-- (empty for now — populated by future changes)
