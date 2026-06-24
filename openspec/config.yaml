@@ -1,0 +1,19 @@
+schema: spec-driven
+
+context: |
+  BookShelf API — personal book catalog for PageTurner Labs book clubs.
+
+  Stack:
+  - Java 17
+  - Spring Boot 3.4.x
+  - Spring Data JPA
+  - H2 embedded database (file ./data/bookshelf.mv.db)
+  - Maven build
+  - Package: com.pageturner.bookshelf
+
+  Conventions:
+  - REST JSON API under /api
+  - MockMvc tests for every endpoint
+  - Seed data via data.sql for local dev
+
+  Greenfield project — minimal code. Only implement what the current change spec says.
